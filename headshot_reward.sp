@@ -123,7 +123,7 @@ bool  g_ShotRewarded[MAXPLAYERS + 1];
 public Plugin myinfo =
 {
     name        = "L4D2 Headshot Reward",
-    author      = "aesty",
+    author      = "me",
     description = "Headshot reward: ammo / heal",
     version     = "1.1",
     url         = ""
