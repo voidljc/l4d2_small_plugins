@@ -29,7 +29,7 @@
 public Plugin myinfo =
 {
     name        = "Tank HP x2 on Spawn",
-    author      = "aesty",
+    author      = "me",
     description = "Detect tank spawn and double its health",
     version     = "1.0",
     url         = ""
