@@ -18,28 +18,28 @@
 #include <sourcemod>
 #include <sdktools>
 
-public Plugin:myinfo =
+public Plugin:myinfo =   公共插件：myinfo =
 {
 	name = "双主武器",
-	author = "非本龟 / optimized",
-	description = "双主武器 - 保守 CPU 优化版",
+	author = "非本龟 / optimized by me",
+	description = "双主武器 - 保守 CPU 优化版",description = "双主武器 - 保守 CPU 优化版",
 	version = "0.2.3-cpuopt-restoreapi",
-	url = "",
+	url = "",   url = "",
 };
 
-new String:weapon_d[MAXPLAYERS + 1][64];
-new danjia_d[MAXPLAYERS + 1];
-new houbei_d[MAXPLAYERS + 1];
-new txammo_d[MAXPLAYERS + 1];
-new txanum_d[MAXPLAYERS + 1];
-new bool:C_Timer[MAXPLAYERS + 1];
-new String:game[64];
+new String:weapon_d[MAXPLAYERS + 1][64];新字符串：武器化[MAXPLAYERS 1][64]；
+new danjia_d[MAXPLAYERS + 1];new danjia_d[MAXPLAYERS 1]；
+new houbei_d[MAXPLAYERS + 1];new houbei_d[MAXPLAYERS 1]；
+new txammo_d[MAXPLAYERS + 1];new txammo_d[MAXPLAYERS 1]；
+new txanum_d[MAXPLAYERS + 1];new txanum_d[MAXPLAYERS   1];
+new bool:C_Timer[MAXPLAYERS + 1];new bool:C_Timer[MAXPLAYERS 1]；
+new String:game[64];   新的字符串:游戏[64];
 
-new bool:g_bIsL4D1 = false;
-new bool:g_bIsL4D2 = false;
-new bool:g_bMapTransition = false;
-new Handle:g_hGunSwingInterval = INVALID_HANDLE;
-new g_iAmmoOffset = -1;
+new bool:g_bIsL4D1 = false;new bool:g_bIsL4D1 = false；
+new bool:g_bIsL4D2 = false;new bool:g_bIsL4D2 = false；
+new bool:g_bMapTransition = false;new bool:g_bMapTransition = false；
+new Handle:g_hGunSwingInterval = INVALID_HANDLE;new Handle:g_hGunSwingInterval = INVALID_HANDLE；
+new g_iAmmoOffset = -1;   new g_iAmmoOffset = -1；
 new Handle:g_hSavedWeapons = INVALID_HANDLE;
 
 #define DOUBLE_PRIMARY_RESTORE_API "double_primary_restore_api"
