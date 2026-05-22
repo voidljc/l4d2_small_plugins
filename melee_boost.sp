@@ -31,7 +31,7 @@
 public Plugin myinfo =
 {
     name        = "L4D2 Melee Boost (Adren Priority)",
-    author      = "aesty",
+    author      = "me",
     description = "Z key melee acceleration: adrenaline ignores the cooldown, non-adrenaline is cooled down; gun cutting is canceled; 0.1 second detection",
     version     = "1.2.0",
     url         = ""
