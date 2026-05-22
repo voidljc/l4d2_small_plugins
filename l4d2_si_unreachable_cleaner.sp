@@ -56,7 +56,7 @@
 public Plugin myinfo =
 {
     name = "L4D2 SI Unreachable Cleaner",
-    author = "ChatGPT",
+    author = "me",
     description = "Low CPU cleanup for unreachable or useless special infected.",
     version = "1.0.0",
     url = ""
