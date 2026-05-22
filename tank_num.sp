@@ -18,7 +18,7 @@ meaningfully increasing CPU cost.
 public Plugin myinfo =
 {
     name        = "L4D2 Tank Mirror Spawner (Anchor Tank + Retry)",
-    author      = "aesty",
+    author      = "me",
     description = "When a Tank spawns, spawn one extra Tank near that Tank. Event-driven with retries and multi-position attempts.",
     version     = "1.5.0",
     url         = ""
