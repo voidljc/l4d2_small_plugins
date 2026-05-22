@@ -46,7 +46,7 @@
 public Plugin myinfo =
 {
     name        = "L4D2 WL Boost + InfAmmo + KillReduceCD (Key X) - ToggleMode",
-    author      = "you",
+    author      = "me",
     description = "按 X 切换白名单加速(每帧clamp)+无限子弹；支持模式切换；击杀特感减冷却；支持文件白名单",
     version     = "3.1.0",
     url         = ""
