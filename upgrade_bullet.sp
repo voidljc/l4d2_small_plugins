@@ -16,7 +16,7 @@ probability, providing a sustained but controlled damage boost without breaking 
 public Plugin myinfo =
 {
     name        = "Weapon Special Bullet Whitelist",
-    author      = "aesty",
+    author      = "me",
     description = "Whitelist weapons: rifles/smgs/snipers grant 1 upgraded bullet every 3 shots; shotguns alternate thresholds 2 and 1 (2<->1) per reward. Explosive/Incendiary 50/50.",
     version     = "1.1.0",
     url         = ""
