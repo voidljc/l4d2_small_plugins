@@ -20,7 +20,7 @@
 public Plugin:myinfo =
 {
 	name = "双主武器",
-	author = "非本龟 / optimized by ChatGPT",
+	author = "非本龟 / optimized ",
 	description = "双主武器 - 保守 CPU 优化版",
 	version = "0.2.2-cpuopt",
 	url = "",
