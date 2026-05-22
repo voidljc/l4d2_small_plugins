@@ -64,7 +64,7 @@ bool g_WasOnGround[MAXPLAYERS + 1];
 public Plugin myinfo =
 {
     name        = "L4D2 Double Jump",
-    author      = "you / optimized by ChatGPT",
+    author      = "you / optimized",
     description = "Allow exactly one mid-air jump per airtime with low-risk cache optimization.",
     version     = "1.2.0",
     url         = ""
