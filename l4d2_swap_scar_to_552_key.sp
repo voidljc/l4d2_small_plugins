@@ -48,7 +48,7 @@
 public Plugin myinfo =
 {
     name        = "L4D2 Swap SCAR -> SG552 (Safe Swap)",
-    author      = "aesty",
+    author      = "me",
     description = "Say !swapscar to swap SCAR to SG552 safely (two-step); fixes reserve ammo.",
     version     = "1.2.0",
     url         = ""
