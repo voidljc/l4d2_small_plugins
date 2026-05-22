@@ -78,7 +78,7 @@ native bool DP_ClearStoredWeapon(int client);
 public Plugin myinfo =
 {
     name        = "L4D2 Self Rescue WASD",
-    author      = "ChatGPT",
+    author      = "me",
     description = "Self rescue by holding W+A+S+D while incapacitated or dead, with configurable cooldown and SI-kill cooldown reduction.",
     version     = "1.4.2-restorefix-dualprimary",
     url         = ""
