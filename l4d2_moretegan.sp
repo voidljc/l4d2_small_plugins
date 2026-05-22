@@ -53,7 +53,7 @@
 public Plugin myinfo =
 {
     name = "L4D2 More Tegan",
-    author = "",
+    author = "me",
     description = "Chat and console controlled special infected auto-fill up to target count. Pauses while Tank exists.",
     version = "1.3.0",
     url = ""
