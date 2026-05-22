@@ -138,7 +138,7 @@ bool g_bNeedCancelStagger[MAXPLAYERS + 1];
 public Plugin myinfo =
 {
     name        = "L4D2 Melee Deflect Tank Rock",
-    author      = "aesty",
+    author      = "me",
     description = "Deflects Tank rocks with melee swing (Touch + Damage interception).",
     version     = "1.0.0",
     url         = ""
