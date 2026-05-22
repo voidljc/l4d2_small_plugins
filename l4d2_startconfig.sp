@@ -6,7 +6,7 @@
 public Plugin myinfo =
 {
     name = "L4D2 Start Config",
-    author = "ChatGPT",
+    author = "me",
     description = "Apply start-of-map server settings and allow reapplying them with sm_startcfg.",
     version = "1.3",
     url = ""
