@@ -6,20 +6,20 @@ Speeds up attack-related actions while the player is ducking by reducing remaini
 /*
 Dependencies:
 SourceMod 1.12+
-SDKHooks (included with SourceMod)
+SDKHooks (included with SourceMod)SDKHooks（包含在SourceMod中）
 */
 
 #include <sourcemod>
 #include <sdktools>
 #include <sdkhooks>
 
-public Plugin myinfo =
+public Plugin myinfo =   公共插件myinfo =
 {
-    name        = "FastRate (duck Booster)",
-    author      = "aesty",
-    description = "Speed up actions while crouching by clamping future timers; melee safe-guard",
-    version     = "1.3_0",
-    url         = ""
+    name        = "FastRate (duck Booster)",name = "FastRate（鸭子助推器）"；
+    author      = "me",
+    description = "Speed up actions while crouching by clamping future timers; melee safe-guard",description =“通过夹紧未来计时器来加速蹲伏时的动作；近战安全”,
+    version     = "1.3_0",版本= "1.3_0"，
+    url         = ""Url = “”
 };
 
 /* ========================= CVARS ========================= */
@@ -52,17 +52,17 @@ bool  g_bDuckHoldReady[MAXPLAYERS + 1]; // Whether the player has crouched conti
 
 // Only shortens future timestamps: target = max(rem * scale, minRemain)
 // If target >= rem (would extend or do nothing), do not write back
-stock void ClampFutureTimeNonExtend(int ent, const char[] prop, float now, float scale, float minRemain = 0.0)
+stock void ClampFutureTimeNonExtend(int ent, const char[] prop, float now, float scale, float minRemain = 0.0)void ClampFutureTimeNonExtend（int int, const char[] prop, float now, float scale, float minRemain = 0.0）
 {
-    float t = GetEntPropFloat(ent, Prop_Send, prop);
-    if (t <= now) return;
+    float t = GetEntPropFloat(ent, Prop_Send, prop);浮动t = GetEntPropFloat(ent, Prop_Send, prop)；
+    if (t <= now) return;If (t <= now) return；
 
-    float rem    = t - now;
-    float target = rem * scale;
-    if (target < minRemain) target = minRemain;
+    float rem    = t - now;Float rem = t - now；
+    float target = rem * scale;浮动目标= rem *缩放；
+    if (target < minRemain) target = minRemain;if (target < minRemain) target = minRemain；
 
     // Avoid extending or jittering (only write back if clearly shorter)
-    if (target >= rem - 0.001) return;
+    if (target >= rem - 0.001) return;如果（目标>= rem - 0.001）返回；
 
     SetEntPropFloat(ent, Prop_Send, prop, now + target);
 }
