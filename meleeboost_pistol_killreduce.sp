@@ -36,7 +36,7 @@
 public Plugin myinfo =
 {
     name        = "L4D2 Melee Boost + Pistol Shot Boost + InfAmmo + KillReduceCD",
-    author      = "aesty + modded + togglemode + moveboost + pistolboost + infammo",
+    author      = "me",
     description = "Z键近战加速；手枪/马格南开火后缩短下次开火间隔并补弹匣；击杀特感减冷却；严格清理计时器",
     version     = "2.3.0",
     url         = ""
