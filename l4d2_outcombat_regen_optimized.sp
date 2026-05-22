@@ -30,7 +30,7 @@
 public Plugin myinfo =
 {
     name        = "L4D2 Out-of-Combat Regen Optimized",
-    author      = "ChatGPT",
+    author      = "me",
     description = "Low-CPU real HP out-of-combat regeneration for L4D2 survivors.",
     version     = "2.0.0",
     url         = ""
