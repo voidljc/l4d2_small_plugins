@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+addontitle "游戏增强"                                  //����
+addonversion ""                                        //�汾��
+addontagline ""                            //���ͼ��
+addonauthor ""                                 //����
+addonSteamGroupName ""                   //��Ҳδ֪
+addonauthorSteamID ""        //SteamID
+addonDescription ""    //��ϸ���
+}
